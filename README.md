@@ -37,7 +37,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 #### Recommended Features
 
 * Add additional relationships (models can be related in a one-to-many relationship, for example)
-  - [Optional notes on having two models and relating them](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-SmellyCat/tree/master/unit_2/w06d05/instructor_notes)
+  - [Optional notes on having two models and relating them](./MultipleModelsNotes/)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow
 * Use EJS Partials
 * Include portfolio-quality styling
@@ -49,12 +49,12 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 ## Setting up for deployment
 
-This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
+This time, because you'll be creating a full-stack app with a server, we cannot just deploy to Netlify. Netlify only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
 
-**This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
+**This deployment is more complex than the netlify pages deployment, so please use the one you did this morning for this project.**
 
-- [Deploying to Heroku](https://git.generalassemb.ly/SEI-Synchrony-11-22/student_resources/blob/main/2_full_stack_dev/week_13/3_sat/warm_up/HEROKU.md)
-- [Setting up MongoDB Atlas](https://git.generalassemb.ly/SEI-Synchrony-11-22/student_resources/blob/main/2_full_stack_dev/week_13/3_sat/warm_up/1.%20MONGODB_ATLAS.md)
+- [Deploying to Heroku](./Deployment/HEROKU.md)
+- [Setting up MongoDB Atlas](./Deployment/1.%20MONGODB_ATLAS.md)
   - Please note: the full set up for Mongo Atlas only needs to be done _once_, then for any projects that you make using this cloud version of Mongo, you just have to include the connection string
 
 ❗ Please **DEPLOY EARLY**, and **DEPLOY OFTEN!** Your app working locally does _not_ guarantee that it will work when deployed the same exact way, especially on Heroku, so whenever you have something working correctly -- please _deploy deploy deploy_ and double check! **Do not save deployment for the very last day!**
@@ -148,7 +148,7 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 ## Inspiration - Projects by Previous SEI Students
 
 - [Decolonize My Audition](http://decolonize-my-audition-book.herokuapp.com/)
-- [1LiNR](https://shielded-badlands-55529.herokuapp.com/gatekeeper)
 - [Basic Goodness](https://basic-goodness.herokuapp.com/products/dinnerware)
 - [I'm Outdoorsy](https://imoutdoorsy.herokuapp.com/)
 - [ElseWhere](https://ajosemalik-elsewhere.herokuapp.com/)
+<!-- - [1LiNR](https://shielded-badlands-55529.herokuapp.com/gatekeeper) -->
