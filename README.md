@@ -105,6 +105,8 @@ Your project is due on Saturday Feb 25th at 9 AM EST. You will present your proj
 1. Seek out help online
 2. Seek out help with your classmates
 3. Seek out help with our class TA
+4. If all of the above have occured, reach out to the Instructional Team with a well worded questions and all relevant supporting screenshots, errors, documentation and things you've tried.
+_**Please note that we will be limiting the amount of help we offer on this project more than the last one as you should be fostering a sense of self-sufficiency and practicing finding solutions through the resources you have available to you before you reach out to a more senior developer. This isn't to be mean or because we're lazy. It's because we want you to succeed post-course in your future career.**_
 
 **Office Hours**: Same Normal Times
 
