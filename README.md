@@ -51,7 +51,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 This time, because you'll be creating a full-stack app with a server, we cannot just deploy to Netlify. Netlify only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
 
-**This deployment is more complex than the netlify pages deployment, so please use the one you did this morning for this project.**
+**This deployment is more complex than the netlify pages deployment. We will be covering deployment and Atlas on Tuesday so don't worry about doing the stuff in the markdowns below yet. For now, just make sure you have successfully gotten your Heroku credits that we registered for earlier this week. If you haven't please reach out to an instructor asap.**
 
 - [Deploying to Heroku](./Deployment/HEROKU.md)
 - [Setting up MongoDB Atlas](./Deployment/1.%20MONGODB_ATLAS.md)
@@ -72,11 +72,11 @@ All projects will be presented to the class.  Your presentation should be:
 
 You will be sharing your app and your code.  Be prepared to answer questions from the instructors and other students.
 
-## Meetings with instructors
+## Meetings with Instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
 
-**Tomorrow Feb 11th - Mandatory**<br>
-You will meet with an instructor to get your app idea approved.
+**Tuesday February 14th - Mandatory**<br>
+- You will meet with an instructor to get your app idea approved. You must be prepared with your idea, any wireframes, user stories etc and ready to meet by the start of class on Tuesday.
 
 _How to prepare for project approval_
 
@@ -99,7 +99,7 @@ Your project is due on Saturday Feb 25th at 9 AM EST. You will present your proj
 
 :heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/1IcHanVGToFlJ_9bg41npmJi6mqnAOi_BcLE0PkobA-A/edit#gid=0).
 
-  - _NOTE:_ This will be the order you present in!
+  - _NOTE:_ This will be the order you present in! Also, if you don't add your name, we will slot you in to one of the remaining open slots at the start of presentations.
 
 ## Where to go for help during project week
 1. Seek out help online
@@ -147,10 +147,10 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 </details>
 <hr>  
 
-## Inspiration - Projects by Previous SEI Students
+<!-- ## Inspiration - Projects by Previous SEI Students
 
 - [Decolonize My Audition](http://decolonize-my-audition-book.herokuapp.com/)
 - [Basic Goodness](https://basic-goodness.herokuapp.com/products/dinnerware)
 - [I'm Outdoorsy](https://imoutdoorsy.herokuapp.com/)
 - [ElseWhere](https://ajosemalik-elsewhere.herokuapp.com/)
-<!-- - [1LiNR](https://shielded-badlands-55529.herokuapp.com/gatekeeper) -->
+- [1LiNR](https://shielded-badlands-55529.herokuapp.com/gatekeeper) -->
