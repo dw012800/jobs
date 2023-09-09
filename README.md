@@ -51,7 +51,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 This time, because you'll be creating a full-stack app with a server, we cannot just deploy to Netlify. Netlify only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
 
-**This deployment is more complex than the netlify pages deployment. We will be covering deployment and Atlas on Tuesday so don't worry about doing the stuff in the markdowns below yet. For now, just make sure you have successfully gotten your Heroku credits that we registered for earlier this week. If you haven't please reach out to an instructor asap.**
+**This deployment is more complex than the netlify pages deployment. We will be covering deployment and Atlas so don't worry about doing the stuff in the markdowns below by yourself. For now, just make sure you have successfully gotten your email about Github Campus so that when we go to teach deployment, we can go over that in class. If you haven't received that email, please reach out to an instructor asap.**
 
 - [Deploying to Heroku](./Deployment/HEROKU.md)
 - [Setting up MongoDB Atlas](./Deployment/1.%20MONGODB_ATLAS.md)
