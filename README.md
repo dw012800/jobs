@@ -104,7 +104,7 @@ Your project is due on Saturday September 23rd at 10 AM EST. You will present yo
 ## Where to go for help during project week
 1. Seek out help online
 2. Seek out help with your classmates
-3. Seek out help with our class TA
+3. Seek out help by posting in debugging
 4. If all of the above have occured, reach out to the Instructional Team with a well worded questions and all relevant supporting screenshots, errors, documentation and things you've tried.
 _**Please note that we will be limiting the amount of help we offer on this project more than the last one as you should be fostering a sense of self-sufficiency and practicing finding solutions through the resources you have available to you before you reach out to a more senior developer. This isn't to be mean or because we're lazy. It's because we want you to succeed post-course in your future career.**_
 
