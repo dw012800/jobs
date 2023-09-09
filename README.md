@@ -72,11 +72,8 @@ All projects will be presented to the class.  Your presentation should be:
 
 You will be sharing your app and your code.  Be prepared to answer questions from the instructors and other students.
 
-## Meetings with Instructors
-_Your instructor will contact you to setup a meeting time to approve your project._
-
-**Tuesday September 12th - Mandatory**<br>
-- You will meet with an instructor to get your app idea approved. You must be prepared with your idea, any wireframes, user stories etc and ready to meet by the start of class on Tuesday.
+## Project Proposal
+**Tuesday September 12th - Mandatory - Due by the end of class**<br>
 
 _How to prepare for project approval_
 
@@ -92,7 +89,10 @@ _How to prepare for project approval_
     - Further:  try to pick 'milestones' (check with the project markdown that you are building what you need for MVP) and determine the order of importance, be sure to have a separate list for stretch goals
     - This takes practice so be ready to adjust your schedule
 - Know that you will have to make changes and adjust/adapt as you build
-- Once you have all of the above, open an issue on this project repo with the all of the information. If you open an issue before Tuesday, we may be able to give you approval ahead of time, giving you more time to work on your project.
+- Once you have all of the above, create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-foxglove/project_2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Saturday by 10AM PDT**, start of class.  Make sure you complete **all of the prompts**. 
+If you open an issue before Tuesday, we may be able to give you approval ahead of time, giving you more time to work on your project.
+
+- Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
 ## How to Submit Your Project
 Your project is due on **Saturday September 23rd at 10 AM EST**. You will present your project and show your code to classmates and instructors.
@@ -104,7 +104,6 @@ Your issue should include:
 - Link to your GitHub repository
 - Link to your deployed application
 
-  - _NOTE:_ This will be the order you present in! Also, if you don't add your name, we will slot you in to one of the remaining open slots at the start of presentations.
 
 ## Where to go for help during project week
 1. Seek out help online
