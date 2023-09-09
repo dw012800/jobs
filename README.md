@@ -75,7 +75,7 @@ You will be sharing your app and your code.  Be prepared to answer questions fro
 ## Meetings with Instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
 
-**Tuesday February 14th - Mandatory**<br>
+**Tuesday September 12th - Mandatory**<br>
 - You will meet with an instructor to get your app idea approved. You must be prepared with your idea, any wireframes, user stories etc and ready to meet by the start of class on Tuesday.
 
 _How to prepare for project approval_
@@ -92,12 +92,12 @@ _How to prepare for project approval_
     - Further:  try to pick 'milestones' (check with the project markdown that you are building what you need for MVP) and determine the order of importance, be sure to have a separate list for stretch goals
     - This takes practice so be ready to adjust your schedule
 - Know that you will have to make changes and adjust/adapt as you build
-- Once you have all of the above, open an issue on this project repo with the all of the information
+- Once you have all of the above, open an issue on this project repo with the all of the information. If you open an issue before Tuesday, we may be able to give you approval ahead of time, giving you more time to work on your project.
 
 ## How to Submit Your Project
-Your project is due on Saturday Feb 25th at 9 AM EST. You will present your project and show your code to classmates and instructors.
+Your project is due on Saturday September 23rd at 10 AM EST. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/1IcHanVGToFlJ_9bg41npmJi6mqnAOi_BcLE0PkobA-A/edit#gid=0).
+:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/1IcHanVGToFlJ_9bg41npmJi6mqnAOi_BcLE0PkobA-A/edit?usp=sharing).
 
   - _NOTE:_ This will be the order you present in! Also, if you don't add your name, we will slot you in to one of the remaining open slots at the start of presentations.
 
@@ -143,7 +143,7 @@ Are you able to defend why you implemented your solution in a certain way? Can y
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 * **[Mongo Documentation](https://docs.mongodb.com/manual/)**
 * **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Mando/blob/master/unit_2/w06d03/homework/Mongo/Mongo_Cheatsheet.md)**
+<!-- * **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Mando/blob/master/unit_2/w06d03/homework/Mongo/Mongo_Cheatsheet.md)** -->
 </details>
 <hr>  
 
