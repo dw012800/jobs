@@ -89,7 +89,7 @@ _How to prepare for project approval_
     - Further:  try to pick 'milestones' (check with the project markdown that you are building what you need for MVP) and determine the order of importance, be sure to have a separate list for stretch goals
     - This takes practice so be ready to adjust your schedule
 - Know that you will have to make changes and adjust/adapt as you build
-- Once you have all of the above, create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-foxglove/project_2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Saturday by 10AM PDT**, start of class.  Make sure you complete **all of the prompts**. 
+- Once you have all of the above, create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seirfx-foxglove/project_2/issues/new?assignees=&labels=&template=project_proposal.md&title=Your+Name) and submit it before the proposal submission deadline **Tuesday by 6:30PM EST**, start of class.  Make sure you complete **all of the prompts**. 
 If you open an issue before Tuesday, we may be able to give you approval ahead of time, giving you more time to work on your project.
 
 - Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
