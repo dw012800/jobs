@@ -95,9 +95,14 @@ _How to prepare for project approval_
 - Once you have all of the above, open an issue on this project repo with the all of the information. If you open an issue before Tuesday, we may be able to give you approval ahead of time, giving you more time to work on your project.
 
 ## How to Submit Your Project
-Your project is due on Saturday September 23rd at 10 AM EST. You will present your project and show your code to classmates and instructors.
+Your project is due on **Saturday September 23rd at 10 AM EST**. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/1IcHanVGToFlJ_9bg41npmJi6mqnAOi_BcLE0PkobA-A/edit?usp=sharing).
+:heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-foxglove/project_2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
+
+Your issue should include:
+
+- Link to your GitHub repository
+- Link to your deployed application
 
   - _NOTE:_ This will be the order you present in! Also, if you don't add your name, we will slot you in to one of the remaining open slots at the start of presentations.
 
