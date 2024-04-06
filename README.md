@@ -73,7 +73,7 @@ All projects will be presented to the class.  Your presentation should be:
 You will be sharing your app and your code.  Be prepared to answer questions from the instructors and other students.
 
 ## Project Proposal
-**Tuesday September 12th - Mandatory - Due by the end of class**<br>
+**Tuesday April 9th - Mandatory - Due by the end of class**<br>
 
 _How to prepare for project approval_
 
@@ -95,7 +95,7 @@ If you open an issue before Tuesday, we may be able to give you approval ahead o
 - Your proposal will be reviewed by the instructor team who will communicate feedback with you directly.
 
 ## How to Submit Your Project
-Your project is due on **Saturday September 23rd at 10 AM EST**. You will present your project and show your code to classmates and instructors.
+Your project is due on **Saturday April 20th at 10 AM EST**. You will present your project and show your code to classmates and instructors.
 
 :heavy_check_mark: Submit your project by adding an issue using the [**Project Submission** issue template](https://git.generalassemb.ly/seirfx-foxglove/project_2/issues/new?assignees=&labels=&template=project_submission.md&title=Your+Name).
 
