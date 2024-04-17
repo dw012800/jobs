@@ -1,0 +1,29 @@
+<%- include('header.ejs') %>
+
+    <body>
+        <h1><%=job.name%></h1>
+        <img class="showImg" src="<%=job.img%>">
+        <p class="showDescription"> <%=job.description%></p>
+        <p> price: $<%=job.price%></p>
+        <% if(job.qty > 0) { %>
+          <p><%=job.qty%> remaining in stock</p>
+          <form action="/jobs/<%=job._id%>/buy?_method=PUT" method="POST">
+            <button class="buy" type="submit">BUY</button>
+          </form>
+        <% } else { %>
+          <p>OUT OF STOCK</p>
+        <% } %> 
+
+        <div class="showButtons">
+          <button class="button">
+            <a href="/jobs/<%= job._id %>/edit">Edit this job</a>
+          </button>
+          <form action="/jobs/<%= job._id%>?_method=DELETE" method="POST">
+            <input class="button" type="submit" value="Delete">
+          </form>
+          <button class="button">
+            <a href="/jobs">Back to Jobs </a>
+          </button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<%- include('header.ejs') %>
+
+    <body>
+        <h1>Jobs</h1>
+        <ul> 
+            <% for(let i = 0; i < jobs.length; i++){ %>
+            <li>
+                <a href="/jobs/<%=jobs[i]._id%>">
+                    <%=jobs[i].name%>
+                </a>
+                <p> Price: $<%=jobs[i].price%></p>
+            </li>
+        <% } %>
+        </ul>
+        <nav>
+            <a class="new" href="/jobs/new">Create a New Job</a>
+        </nav>
+    </body>
+</html> 

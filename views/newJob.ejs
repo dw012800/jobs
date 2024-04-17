@@ -1,0 +1,22 @@
+<%- include('header.ejs') %>
+
+    <body>
+        <h1>New Jobs</h1>
+        <form class="newForm" action="/jobs" method="POST">
+            Name: <input type="text" name="name">
+            <br>
+            description: <input type="text" name="description">
+            <br>
+            Image Link: <input type="text" name="img">
+            <br>
+            Price: <input type="number" name="price" min="0">
+            <br>
+            Quantity: <input type="number" name="qty" min="0">
+            <br>
+            <input type="submit" name="" value="Create Product">
+        </form>
+        <button class="back">
+            <a class="backA" href="/jobs">Back</a>
+        </button>
+    </body>
+</html>
