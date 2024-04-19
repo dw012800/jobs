@@ -1,0 +1,26 @@
+<%- include('header.ejs') %>
+<body>
+  <h1>Edit job</h1>
+  <form class="newForm" action="/jobs/<%=job._id%>?_method=PUT" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="<%=job.name%>">
+    <br>
+    <label for="description">Description</label>
+    <input type="text" name="description" id="description" value="<%=job.description%>">
+    <br>
+    <label for="link">Link URL</label>
+    <input type="text" name="link" id="link" value="<%=job.link%>">
+    <br>
+    <label for="payrange">Payrange</label>
+    <input type="text" name="payrange" id="payrange" value="<%=job.payrange%>">
+    <br>
+    <label for="qty">isRemote</label>
+    isRemote: <input type="checkbox" name="isRemote" />
+    <br>
+    <input class="button" type="submit" value="Edit Job">
+  </form>
+  <button class="back">
+    <a class="backA" href="/jobs">Back</a>
+</button>
+</body>
+</html> 

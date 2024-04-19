@@ -2,18 +2,9 @@
 
     <body>
         <h1><%=job.name%></h1>
-        <img class="showImg" src="<%=job.img%>">
+        <a class="showLink" src="<%=job.link%>">
         <p class="showDescription"> <%=job.description%></p>
-        <p> price: $<%=job.price%></p>
-        <% if(job.qty > 0) { %>
-          <p><%=job.qty%> remaining in stock</p>
-          <form action="/jobs/<%=job._id%>/buy?_method=PUT" method="POST">
-            <button class="buy" type="submit">BUY</button>
-          </form>
-        <% } else { %>
-          <p>OUT OF STOCK</p>
-        <% } %> 
-
+        <p> payrange: $<%=job.payrange%></p>
         <div class="showButtons">
           <button class="button">
             <a href="/jobs/<%= job._id %>/edit">Edit this job</a>

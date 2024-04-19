@@ -38,15 +38,6 @@ router.get('/', async (req, res) => {
     })
   })
   
-  // buy route 
-  router.put('/:id/buy', async (req, res) => {
-    const Job = await Job.findById(req.params.id)
-    if (Job.qty > 0){
-      Job.qty -= 1
-      await Job.save()
-    }
-    res.redirect(`/jobs/${req.params.id}`)
-  })
   
   // edit Job route
   router.get('/:id/edit', async (req, res) => {
@@ -62,6 +53,7 @@ router.get('/', async (req, res) => {
   router.post('/', async (req, res) => {
     console.log(req.body)
     console.log('POST REQUEST MADE WITH: ', req.body)
+    req.body.isRemote = req.body.isRemote ? true : false
     try {
       const newJob = await Job.create(req.body)
       res.redirect('/jobs')
@@ -73,8 +65,15 @@ router.get('/', async (req, res) => {
   
   // update route
   router.put('/:id', async (req, res) => {
-    const updatedJob = await Job.findByIdAndUpdate(req.params.id, req.body, {new: true})
-    res.redirect(`/jobs/${req.params.id}`)
+    try{
+      req.body.isRemote === 'on' ? req.body.isRemote = true : req.body.isRemote = false 
+      const updatedJob = await Job.findByIdAndUpdate(req.params.id, req.body, {new: true})
+      res.redirect(`/jobs/${req.params.id}`)   
+    }
+    catch{
+      console.log("ERROR IN EDIT ROUTE: ", err)
+      res.status(500).send(err)
+    }
   })
   
   
