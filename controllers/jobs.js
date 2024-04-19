@@ -43,7 +43,7 @@ router.get('/', async (req, res) => {
   router.get('/:id/edit', async (req, res) => {
     const foundJob = await Job.findById(req.params.id)
     res.render('edit.ejs', {
-      Job: foundJob,
+      job: foundJob,
       id: req.params.id
     })
   })

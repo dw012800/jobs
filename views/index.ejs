@@ -1,14 +1,20 @@
 <%- include('header.ejs') %>
+<link rel="stylesheet" href="/css/app-index.css">  
 
     <body>
         <h1>Jobs</h1>
         <ul> 
             <% for(let i = 0; i < jobs.length; i++){ %>
             <li>
-                <a href="/jobs/<%=jobs[i]._id%>">
+                <a href="/jobs/<%=jobs[i].id%>">
                     <%=jobs[i].name%>
                 </a>
-                <p></p>
+                <p> <% if(jobs[i].isRemote) { %>
+                    Remote
+                  <% } else { %>
+                    On-site
+                  <% } %>
+                </p>
                 <p> Payrange: $<%=jobs[i].payrange%></p>
             </li>
         <% } %>

@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.showButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px
+}
+
+#jLink{
+    text-decoration: underline;
+}

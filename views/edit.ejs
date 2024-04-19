@@ -1,24 +1,22 @@
 <%- include('header.ejs') %>
+<link rel="stylesheet" href="/css/app-edit.css">  
+
 <body>
-  <h1>Edit job</h1>
-  <form class="newForm" action="/jobs/<%=job._id%>?_method=PUT" method="POST">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" value="<%=job.name%>">
+  <h1>Edit Job</h1>
+  <form action="/jobs/<%=job.id%>?_method=PUT" method="POST">
+    Name: <input type="text" name="name">
     <br>
-    <label for="description">Description</label>
-    <input type="text" name="description" id="description" value="<%=job.description%>">
+    Description: <input type="text" name="description">
     <br>
-    <label for="link">Link URL</label>
-    <input type="text" name="link" id="link" value="<%=job.link%>">
+    Link: <input type="text" name="link">
     <br>
-    <label for="payrange">Payrange</label>
-    <input type="text" name="payrange" id="payrange" value="<%=job.payrange%>">
+    Payrange: <input type="text" name="payrange" >
     <br>
-    <label for="qty">isRemote</label>
-    isRemote: <input type="checkbox" name="isRemote" />
-    <br>
-    <input class="button" type="submit" value="Edit Job">
-  </form>
+    isRemote: <input type="checkbox" name="isRemote"
+    <%= job.isRemote ? 'checked' : 'unchecked' %>
+    /><br>
+    <input type="submit" name="" value="Submit Changes">
+</form>
   <button class="back">
     <a class="backA" href="/jobs">Back</a>
 </button>

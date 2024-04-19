@@ -1,10 +1,17 @@
 <%- include('header.ejs') %>
+<link rel="stylesheet" href="/css/app-show.css">  
 
     <body>
         <h1><%=job.name%></h1>
-        <a class="showLink" src="<%=job.link%>">
+        <p> <% if(job.isRemote) { %>
+          Remote
+        <% } else { %>
+          On-site
+        <% } %>
+      </p>
+        <a id="jLink" href="<%=job.link%>">Link to apply!</a>
         <p class="showDescription"> <%=job.description%></p>
-        <p> payrange: $<%=job.payrange%></p>
+        <p> Payrange: $<%=job.payrange%></p>
         <div class="showButtons">
           <button class="button">
             <a href="/jobs/<%= job._id %>/edit">Edit this job</a>
