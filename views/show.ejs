@@ -3,12 +3,15 @@
 
     <body>
         <h1><%=job.name%></h1>
-        <p> <% if(job.isRemote) { %>
-          Remote
-        <% } else { %>
-          On-site
-        <% } %>
-      </p>
+        <div class="info">
+          <p> <% if(job.isRemote) { %>
+              Remote
+          <% } else { %>
+              On-site
+          <% } %>
+          </p>
+      <p><%=job.location%></p>
+      </div>
         <a id="jLink" href="<%=job.link%>">Link to apply!</a>
         <p class="showDescription"> <%=job.description%></p>
         <p> Payrange: $<%=job.payrange%></p>

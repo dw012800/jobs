@@ -8,11 +8,24 @@ a{
     
 }
 
+h1{
+    margin-bottom: 0px;
+}
+
 .showButtons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 300px
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 175px;
+    padding: 2px 0px 2px 0px;
+    margin: 0px
 }
 
 #jLink{

@@ -21,3 +21,14 @@ nav{
     align-items: center;
 
 }
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 175px;
+}
+
+.pRange{
+    margin-top: 0px;
+}

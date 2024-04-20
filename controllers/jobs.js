@@ -38,6 +38,19 @@ router.get('/', async (req, res) => {
     })
   })
   
+    // create route
+    router.post('/', async (req, res) => {
+      console.log(req.body)
+      console.log('POST REQUEST MADE WITH: ', req.body)
+      req.body.isRemote = req.body.isRemote ? true : false
+      try {
+        const newJob = await Job.create(req.body)
+        res.redirect('/jobs')
+      }catch (err) {
+        console.log('ERROR WITH Jobs POST: ', err)
+        res.status(500).send(err)
+      }
+    })
   
   // edit Job route
   router.get('/:id/edit', async (req, res) => {
@@ -48,20 +61,6 @@ router.get('/', async (req, res) => {
     })
   })
   
-  
-  // create route
-  router.post('/', async (req, res) => {
-    console.log(req.body)
-    console.log('POST REQUEST MADE WITH: ', req.body)
-    req.body.isRemote = req.body.isRemote ? true : false
-    try {
-      const newJob = await Job.create(req.body)
-      res.redirect('/jobs')
-    }catch (err) {
-      console.log('ERROR WITH Jobs POST: ', err)
-      res.status(500).send(err)
-    }
-  })
   
   // update route
   router.put('/:id', async (req, res) => {

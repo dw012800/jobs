@@ -3,7 +3,10 @@
     "start": "node server.js"
   },
   "name": "project-2",
-  "description": "![](/ga_cog.png)",
+  "engines": {
+    "node": "21.1.0"
+  },
+  "description": "",
   "version": "1.0.0",
   "main": "server.js",
   "keywords": [],

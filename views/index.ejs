@@ -9,13 +9,16 @@
                 <a href="/jobs/<%=jobs[i].id%>">
                     <%=jobs[i].name%>
                 </a>
-                <p> <% if(jobs[i].isRemote) { %>
-                    Remote
-                  <% } else { %>
-                    On-site
-                  <% } %>
-                </p>
-                <p> Payrange: $<%=jobs[i].payrange%></p>
+                <div class="info">
+                    <p> <% if(jobs.isRemote) { %>
+                        Remote
+                    <% } else { %>
+                        On-site
+                    <% } %>
+                    </p>
+                <p><%=jobs[i].location%></p>
+                </div>
+                <p class="pRange"> Payrange: $<%=jobs[i].payrange%></p>
             </li>
         <% } %>
         </ul>
